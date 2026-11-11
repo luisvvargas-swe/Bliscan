@@ -1,0 +1,37 @@
+{
+  "parts": [
+    "part-00.bin",
+    "part-01.bin",
+    "part-02.bin",
+    "part-03.bin",
+    "part-04.bin",
+    "part-05.bin",
+    "part-06.bin",
+    "part-07.bin",
+    "part-08.bin",
+    "part-09.bin",
+    "part-10.bin",
+    "part-11.bin",
+    "part-12.bin",
+    "part-13.bin",
+    "part-14.bin",
+    "part-15.bin",
+    "part-16.bin",
+    "part-17.bin",
+    "part-18.bin",
+    "part-19.bin",
+    "part-20.bin",
+    "part-21.bin",
+    "part-22.bin",
+    "part-23.bin",
+    "part-24.bin",
+    "part-25.bin"
+  ],
+  "bytes": 26618600,
+  "sha256": "98c5c2ca0bde45c3ede6ea4d44dedd2f4df98ae1941bb706065b19828096899e",
+  "classes": [
+    "Empty",
+    "Full"
+  ],
+  "inputSize": 640
+}
