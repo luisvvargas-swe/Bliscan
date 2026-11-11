@@ -129,4 +129,4 @@ Bliscan/
 ## Versión web
 
 [Probar la aplicación](https://luisvvargas-swe.github.io/proyectos/bliscan/). El código de la adaptación para navegador está en `web/`.
-La versión web utiliza ONNX Runtime Web y una exportación INT8 del modelo `backend/model/modelin.pt`, dividida en partes verificadas por SHA-256. La calibración usa las tres imágenes `val_batch*_labels.jpg`. Esta adaptación requiere evaluar nuevamente la precisión antes de cualquier uso operativo. Las métricas de entrenamiento anteriores corresponden al modelo original.
+La versión web utiliza ONNX Runtime Web. Los pesos del modelo original se almacenan en FP16 y se convierten a FP32 al cargarse para mantener los cálculos en FP32. Las partes del archivo se verifican mediante SHA-256. Las métricas de entrenamiento anteriores corresponden al modelo original.
