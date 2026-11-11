@@ -6,6 +6,10 @@
 
 Bliscan is a full-stack computer vision system for detecting pills and empty cells in pharmaceutical blister packs using a custom YOLOv8 model.
 
+## Luis Vargas's contribution
+
+This is a team project. Luis contributed to the camera-based detection scripts, improvements to `backend/cameraScript2.py`, and installation and training documentation. The Git history preserves the contributions of the complete team and the repository's original fork relationship.
+
 ---
 
 ## Model Performance (Validation)
